@@ -1,5 +1,5 @@
 #include "solution.h"
-//function 1
+//function1 for question1
 void Solution::RemoveDuplicates(std::vector<int> &vect)
 {
 
@@ -21,7 +21,7 @@ void Solution::RemoveDuplicates(std::vector<int> &vect)
     vect = temp;
   }
 }
-//function2
+//function2 for question1
 void Solution::RemoveDuplicatesUsingSet(std::vector<int> &vect)
 {
   std::set<int> s;
@@ -35,12 +35,12 @@ void Solution::RemoveDuplicatesUsingSet(std::vector<int> &vect)
     vect.push_back(y);
   }
 }
-//function3
+//function3 for question2
 void Solution::VectorReversed(std::vector<int> &vect)
 {
   std::reverse(vect.begin(),vect.end());
 }
-
+//function4 for question3
 void Solution::RemoveOdds(std::vector<int> &vect)
 {
   std::vector<int> results;
@@ -54,7 +54,7 @@ void Solution::RemoveOdds(std::vector<int> &vect)
   }
   vect = results;
 }
-//function4
+//function5 for question4
 std::vector<int> Solution::Concatenating(const std::vector<int> &vect1, const std::vector<int> &vect2)
 {
   std::vector<int> vect;
@@ -62,7 +62,7 @@ std::vector<int> Solution::Concatenating(const std::vector<int> &vect1, const st
   vect.insert(vect.end(),vect2.begin(),vect2.end());
   return vect;
 }
-//function5
+//function6 for question5
 std::vector<int> Solution::Union(const std::vector<int> &vect1, const std::vector<int> &vect2)
 {
   std::vector<int> results;
